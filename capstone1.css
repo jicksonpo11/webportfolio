@@ -1,0 +1,164 @@
+/*CSS Reset*/
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sono', sans-serif;
+}
+
+.bgcolor {
+	background-color: #6B6D76;
+}
+
+/*Fonts*/
+.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sono', sans-serif;
+}
+
+.subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sono', sans-serif;
+}
+
+/*NAV*/
+nav{
+	z-index: 2;
+/*	background-color: white;*/
+	position: fixed;
+	padding: 0.8rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	list-style-type: none;
+}
+.nav-logo {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	left: 100px;
+}
+
+.right-nav {
+	text-align: center;
+	position: sticky;
+	left: 5%;
+	list-style: none;
+	font-weight: bold;
+}
+
+.right-nav, .nav {
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-top: 2rem;
+}
+
+.click-button {
+	color: white;
+	font-weight: bold;
+	background-color: #212529;
+	border-radius: 25px;
+	border-color: #212529;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+
+/*Landing page*/
+#bg-image {
+	min-height: 100vh;
+	background-image: url(https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg);
+	background-position: center;
+}
+
+#bg-image {
+	text-align: center;
+
+}
+
+.middle {
+	padding-top: 100px;
+}
+
+.title {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sono', sans-serif;
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-align: center;	
+	font-size: 62px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.container {
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	vertical-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 3rem;
+}
+
+.subtitle {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: right;
+	color: white;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 2rem;
+}
+
+.paragraph {
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: right;
+	color: white;
+	/*padding-right: 10%;
+	padding-left: 10%;*/
+	padding-top: 2rem;
+}
+
+.card-bg {
+	background-color: adb5bd;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link, a:visited {
+  background-color: #212529;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+/*  display: inline-block;*/
+}
